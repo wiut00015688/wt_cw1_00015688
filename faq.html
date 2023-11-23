@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FAQ</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+   <header class="header">
+
+      <div class="header_row">
+         <div class="header_img">
+            <a href="index.html" class="logo" target="_blank">
+               <img class="img_logo" src="img/logo.png" alt="">
+            </a>
+         </div>
+         <ul class="header_navbar">
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html" target="_blank">Universities</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+         </ul>
+         <div class="toggle_icon">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+
+
+      </div>
+      <div class="header_navbar_responsive">
+         <ul class="header_navbar_responsive_list">
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html" target="_blank">Universities</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+         </ul>
+      </div>
+
+   </header>
+
+
+   <div class="faq_head">
+      <div class="container">
+         <div class="faq_head_row bg_image">
+            <h4 class="faq_title title">FAQ</h4>
+            <p class="faq_text">Frequently asked questions </p>
+
+         </div>
+         <button onclick="document.getElementById('id01').style.display='block'" class="dream_button faq_button">Sign
+            up</button>
+      </div>
+   </div>
+
+   <div class="faq_body">
+      <div class="container">
+         <div class="faq_body_title">Frequently Asked <span>Questions</span></div>
+         <div class="body_content">
+            <div class="faq_body">
+               <div class="container">
+                  <div class="faq_body_row">
+                     <div class="faq_body_row_header">
+                        <p>What services does world.uz provide?</p>
+                     </div>
+                     <div class="faq_body_row_description">
+                        <p>World.uz provides professional advice in the field of education abroad, helps you
+                           choose the best study program and university for you, handles the paperwork for admission
+                           and obtaining a visa, and also helps you orient yourself before flying off to study. We
+                           accompany the student throughout the entire admission process. You can find out more about
+                           this on the services page.</p>
+                     </div>
+                  </div>
+                  <div class="faq_body_row">
+                     <div class="faq_body_row_header">
+                        <p>How much do world.uz services cost?</p>
+                     </div>
+                     <div class="faq_body_row_description">
+                        <p>The cost of our company's services for a full package of services is 5 100 000 so’m. You
+                           can pay this amount in any way convenient for you on the basis of an agreement.</p>
+                     </div>
+                  </div>
+                  <div class="faq_body_row">
+                     <div class="faq_body_row_header">
+                        <p>I want to study abroad. Where do I begin?</p>
+                     </div>
+                     <div class="faq_body_row_description">
+                        <p>We advise you to start by getting the first free consultation from Universe Group
+                           specialists. To do this, please contact us.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer_row">
+            <div class="footer_sign">
+               <div class="footer_text">Still have <span>questions?</span> Sign up for a free consultation</div>
+               <button onclick="document.getElementById('id01').style.display='block'"
+                  class="dream_button footer_button">Sign up</button>
+               <div class="footer_phone">or contact us by number : +998 (71) 000-00-00</div>
+            </div>
+
+            <div class="footer_info">
+               <div class="info_row">
+                  <div class="info_email">
+                     <div class="info_item">
+                        <img src="img/icons/envelope-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Email <br>info@example.uz</div>
+                     </div>
+                  </div>
+                  <div class="info_adress">
+                     <div class="info_item">
+                        <img src="img/icons/location-dot-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Tashkent city, Tashkent street, 1A, International
+                           Business Centre</div>
+                     </div>
+                  </div>
+
+                  <div class="info_hours">
+                     <div class="info_item">
+                        <img src="img/icons/clock-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Monday — Friday
+                           9:00–18:00</div>
+                     </div>
+                  </div>
+
+                  <div class="info_phone">
+                     <div class="info_item">
+                        <img src="img/icons/phone-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Phone: <br>+998 (71) 000-00-00</div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </footer>
+   <script src="js/script.js"></script>
+
+
+   <!-- Sign-in form -->
+   <div id="id01" class="modal">
+
+      <form class="modal-content animate" method="post">
+
+
+         <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Your city</b></label>
+            <select name="city">
+               <option value="tashkent">Tashkent</option>
+               <option value="fergana">Fergana</option>
+               <option value="namangan">Namangan</option>
+               <option value="andijan">Andijan</option>
+               <option value="tashkent">Tashkent</option>
+               <option value="other">Other</option>
+
+            </select>
+
+            <label><b>Textarea</b></label>
+            <textarea name="comments"></textarea>
+
+
+            <button class="submit_button" type="submit">Login</button>
+            <label>
+               <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+         </div>
+
+         <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+               class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+         </div>
+      </form>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>

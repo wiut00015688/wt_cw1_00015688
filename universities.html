@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Universities</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+   <header class="header">
+
+      <div class="header_row">
+         <div class="header_img">
+            <a href="index.html" class="logo" target="_blank">
+               <img class="img_logo" src="img/logo.png" alt="">
+            </a>
+         </div>
+         <ul class="header_navbar">
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html">Universities</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+         </ul>
+         <div class="toggle_icon">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+
+
+      </div>
+      <div class="header_navbar_responsive">
+         <ul class="header_navbar_responsive_list">
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html" target="_blank">Universities</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+         </ul>
+      </div>
+
+   </header>
+
+   <div class="universities_head">
+      <div class="container">
+         <div class="universities_head_row bg_image">
+            <div class="universities_body">
+               <h4 class="universities_title title">Universities and colleges</h4>
+               <p class="universities_text">WORLD.UZ will help you at every stage of admission to a prestigious
+                  university! <br> Hurry up to book a free consultation
+
+               </p>
+
+            </div>
+            <button onclick="document.getElementById('id01').style.display='block'" class="dream_button">Sign
+               up</button>
+
+         </div>
+      </div>
+   </div>
+   <div class="universities_main">
+      <div class="container">
+         <p class="universities_main_title title">WORLD.UZ will help you at every stage of admission to a
+            prestigious university! Hurry up to book a free consultation</p>
+         <div class="universities_main_row">
+            <div class="universities_main_row_column">
+               <div class="universities_column_img">
+                  <img src="img/oxford.jpg" alt="">
+               </div>
+               <p class="college"><span>Oxford</span> <br>The University of Oxford is a collegiate research university
+                  in
+                  Oxford,
+                  England. There is evidence of teaching as early as 1096, making it the oldest university in the
+                  English-speaking world and the world's second-oldest university in continuous operation.</p>
+            </div>
+
+            <div class="universities_main_row_column">
+               <div class="universities_column_img">
+                  <img src="img/mit.jpg" alt="">
+               </div>
+               <p class="college"><span>MIT</span> <br>The MIT community is driven by a shared purpose: to make a better
+                  world through education, research, and innovation. We are fun and quirky, elite but not elitist,
+                  inventive and artistic, obsessed with numbers, and welcoming to talented people regardless of where
+                  they come from.</p>
+            </div>
+
+            <div class="universities_main_row_column">
+               <div class="universities_column_img">
+                  <img src="img/harvard.jpg" alt="">
+               </div>
+               <p class="college"><span>Harvard</span> <br>Founded in 1636 as Harvard College and named for its first
+                  benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the
+                  United States. Its influence, wealth, and rankings have made it one of the most prestigious
+                  universities in the world.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer_row">
+            <div class="footer_sign">
+               <div class="footer_text">Still have <span>questions?</span> Sign up for a free consultation</div>
+               <button onclick="document.getElementById('id01').style.display='block'"
+                  class="dream_button footer_button">Sign up</button>
+               <div class="footer_phone">or contact us by number : +998 (71) 000-00-00</div>
+            </div>
+
+            <div class="footer_info">
+               <div class="info_row">
+                  <div class="info_email">
+                     <div class="info_item">
+                        <img src="img/icons/envelope-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Email <br>info@example.uz</div>
+                     </div>
+                  </div>
+                  <div class="info_adress">
+                     <div class="info_item">
+                        <img src="img/icons/location-dot-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Tashkent city, Tashkent street, 1A, International
+                           Business Centre</div>
+                     </div>
+                  </div>
+
+                  <div class="info_hours">
+                     <div class="info_item">
+                        <img src="img/icons/clock-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Monday — Friday
+                           9:00–18:00</div>
+                     </div>
+                  </div>
+
+                  <div class="info_phone">
+                     <div class="info_item">
+                        <img src="img/icons/phone-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Phone: <br>+998 (71) 000-00-00</div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </footer>
+   <script src="js/script.js"></script>
+
+
+   <!-- Sign-in form -->
+   <div id="id01" class="modal">
+
+      <form class="modal-content animate" method="post">
+
+
+         <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Your city</b></label>
+            <select name="city">
+               <option value="tashkent">Tashkent</option>
+               <option value="fergana">Fergana</option>
+               <option value="namangan">Namangan</option>
+               <option value="andijan">Andijan</option>
+               <option value="tashkent">Tashkent</option>
+               <option value="other">Other</option>
+
+            </select>
+
+            <label><b>Textarea</b></label>
+            <textarea name="comments"></textarea>
+
+
+            <button class="submit_button" type="submit">Login</button>
+            <label>
+               <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+         </div>
+
+         <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+               class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+         </div>
+      </form>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+
+</html>

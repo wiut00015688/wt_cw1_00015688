@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+   <header class="header">
+
+      <div class="header_row">
+         <div class="header_img">
+            <a href="index.html" target="_blank" class="logo">
+               <img class="img_logo" src="img/logo.png" alt="">
+            </a>
+         </div>
+         <ul class="header_navbar">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html" target="_blank">Universities</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+         </ul>
+         <div class="toggle_icon">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+
+
+      </div>
+      <div class="header_navbar_responsive">
+         <ul class="header_navbar_responsive_list">
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="services.html" target="_blank">Services</a></li>
+            <li><a href="universities.html" target="_blank">Universities</a></li>
+            <li><a href="faq.html" target="_blank">FAQ</a></li>
+         </ul>
+      </div>
+
+   </header>
+   <div class="about_head">
+      <div class="container">
+         <div class="about_head_row bg_image">
+            <div class="about_body">
+               <h4 class="about_title title">About us</h4>
+               <p class="about_text">Who we are Universe Group?
+
+               </p>
+
+            </div>
+            <button onclick="document.getElementById('id01').style.display='block'" class="dream_button">Sign
+               up</button>
+
+         </div>
+      </div>
+   </div>
+   <div class="about_main">
+      <div class="container">
+         <div class="about_main_row">
+            <div class="about_main_row_title">Who <span>we?</span></div>
+            <p class="about_main_row_text">Our company is the official representative of prestigious public
+               universities in the UK, USA, Australia and Holland. Our highly qualified specialists also help students
+               to enter the ranking universities in Canada, New Zealand, UAE, Germany, Singapore and Switzerland. Thanks
+               to high professionalism and a modern approach, over the 8 years of our activity, we have assisted more
+               than 3,000 students to realize their dream! World.uz clients have become students of the most elite
+               universities in the world.</p>
+            <div class="about_main_row_image">
+               <img src="img/about_world.jpg" alt="">
+            </div>
+            <div class="about_main_row_title">Our <span>mission</span></div>
+            <p class="about_main_row_text">We, the World.uz team, believe that in the modern world everyone should
+               have the opportunity to get a quality education. Our mission is to make the world a better place,
+               starting with education, because high-quality education is the foundation of a full and successful life.
+               The main principle of our company is the quality of work performed and an individual approach to each
+               client.</p>
+            <div class="about_main_row_image">
+               <img src="img/about_mission.jpg" alt="">
+            </div>
+            <div class="about_main_row_title">Facts <span>about us</span></div>
+            <div class="about_facts">
+               <div class="facts_row">
+                  <div class="facts_column">
+                     <p>3000+ <br> <span>students sent to foreign univesities</span></p>
+
+                  </div>
+                  <div class="facts_column">
+                     <p>0 <br> <span>UK visa denials</span></p>
+
+                  </div>
+                  <div class="facts_column">
+                     <p>3 <br> <span>Branches in the regions of Uzbekistan</span></p>
+
+                  </div>
+                  <div class="facts_column">
+                     <p>8 <br> <span>Successful years in the education market</span></p>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer_row">
+            <div class="footer_sign">
+               <div class="footer_text">Still have <span>questions?</span> Sign up for a free consultation</div>
+               <button onclick="document.getElementById('id01').style.display='block'"
+                  class="dream_button footer_button">Sign up</button>
+               <div class="footer_phone">or contact us by number : +998 (71) 000-00-00</div>
+            </div>
+
+            <div class="footer_info">
+               <div class="info_row">
+                  <div class="info_email">
+                     <div class="info_item">
+                        <img src="img/icons/envelope-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Email <br>info@example.uz</div>
+                     </div>
+                  </div>
+                  <div class="info_adress">
+                     <div class="info_item">
+                        <img src="img/icons/location-dot-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Tashkent city, Tashkent street, 1A, International
+                           Business Centre</div>
+                     </div>
+                  </div>
+
+                  <div class="info_hours">
+                     <div class="info_item">
+                        <img src="img/icons/clock-regular.svg" class="info_img" alt="">
+                        <div class="info_text">Adress <br>Monday — Friday
+                           9:00–18:00</div>
+                     </div>
+                  </div>
+
+                  <div class="info_phone">
+                     <div class="info_item">
+                        <img src="img/icons/phone-solid.svg" class="info_img" alt="">
+                        <div class="info_text">Phone: <br>+998 (71) 000-00-00</div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </footer>
+   <!-- Sign-in form -->
+   <div id="id01" class="modal">
+
+      <form class="modal-content animate" method="post">
+
+
+         <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Your city</b></label>
+            <select name="city">
+               <option value="tashkent">Tashkent</option>
+               <option value="fergana">Fergana</option>
+               <option value="namangan">Namangan</option>
+               <option value="andijan">Andijan</option>
+               <option value="tashkent">Tashkent</option>
+               <option value="other">Other</option>
+
+            </select>
+
+            <label><b>Textarea</b></label>
+            <textarea name="comments"></textarea>
+
+
+            <button class="submit_button" type="submit">Login</button>
+            <label>
+               <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+         </div>
+
+         <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+               class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+         </div>
+      </form>
+   </div>
+   <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

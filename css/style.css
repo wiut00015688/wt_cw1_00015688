@@ -1,0 +1,752 @@
+* {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+   margin: 0;
+   min-width: 100%;
+   background-color: #f1f1f1;
+}
+
+
+/* Removing vertical scroll  */
+body::-webkit-scrollbar {
+   display: none;
+}
+
+/* Positioning header */
+.header {
+   position: fixed;
+   left: 0;
+   right: 0;
+   margin: 0;
+   padding: 0;
+}
+
+/* Extra container to center the content of pages */
+.container {
+   max-width: 1180px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* Positioning and styling header */
+.header_row {
+   display: flex;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   background-color: #8bdffb;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.header_img {
+   width: 15%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo {
+   position: relative;
+
+}
+
+.img_logo {
+   width: 80px;
+   height: 80px;
+   margin: 0;
+   padding: 0;
+
+}
+
+.header_navbar {
+
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.header_navbar li {
+   display: inline-block;
+   width: 200px;
+   height: 100%;
+}
+
+.header_navbar a {
+   text-decoration: none;
+   color: rgb(87, 87, 255);
+   padding: 40px 20px;
+   text-align: center;
+   display: block;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+.header_navbar a:hover {
+   color: white;
+   background-color: rgb(87, 87, 255);
+}
+
+.fa-solid {
+   font-size: 30px;
+   display: none !important;
+}
+
+/* Since the header is fixed on top of page, to fully display content, margin-top needed to first container in all pages */
+.faq_head {
+   padding-top: 114px;
+}
+
+.about_head {
+   padding: 114px 0 0 0;
+}
+
+.universities_head {
+   padding: 114px 0 0 0;
+}
+
+.services_head {
+   padding: 114px 0 0 0;
+}
+
+.dream {
+   padding: 114px 0 0 0;
+}
+
+/* Common property for all background images */
+.bg_image {
+   padding: 50px;
+   min-height: 400px;
+   background-repeat: no-repeat;
+   background-position: top 0 right 0;
+   background-size: 500px 400px;
+
+}
+
+/* Setting background images */
+.dream_row {
+   background-image: url(../img/students.png);
+}
+
+.faq_head_row {
+   background-image: url(../img/faq.jpg);
+}
+
+.about_head_row {
+   background-image: url(../img/about.jpg);
+}
+
+.services_head_row {
+   background-image: url(../img/cost_bg.jpg);
+}
+
+.universities_head_row {
+   background-image: url(../img/universities.jpg);
+}
+
+/* Setting common properties to all titles in project */
+.title {
+
+   font-size: 48px;
+   margin: 0;
+}
+
+
+
+.dream_text {
+   font-size: 18px;
+}
+
+/* Styling "Sign Up" button */
+.dream_button {
+
+   border: 5px solid green;
+   border-radius: 30px;
+   height: 70px;
+   width: 200px;
+   font-size: 20px;
+   color: green;
+   background-color: #7fff00;
+}
+
+.dream_button:hover {
+   background-color: green;
+   color: white;
+}
+
+
+
+.why {
+   padding: 50px 0 20px 0;
+}
+
+.why_row {
+   display: flex;
+   background-color: white;
+   padding: 30px;
+   border-radius: 20px;
+   flex-wrap: wrap;
+
+}
+
+.why_column {
+   margin: 0 0 30px 0;
+   flex: 0 1 50%;
+}
+
+
+.item_row {
+   display: flex;
+}
+
+.item_image {
+   flex: 0 0 80px;
+}
+
+.item_body {
+   padding: 0 20px 0 15px;
+}
+
+.item_title {
+   font-size: 24px;
+   line-height: 30px;
+   margin-bottom: 13px;
+
+}
+
+.item_text {
+   font-size: 16px;
+   line-height: 24px;
+
+}
+
+/* Styling "Responses" container in Main page */
+.response {
+   margin: 15px 20px;
+}
+
+.response_title {
+   text-align: center;
+   font-size: 30px;
+   line-height: 36px;
+   font-weight: 600;
+   margin: 0 0 33px 0;
+}
+
+.response_row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.response_image {
+   flex: 0 1 30%;
+
+}
+
+.response_image img {
+   max-width: 300px;
+   margin: 10px 25px;
+   border-radius: 10px;
+}
+
+.response_body {
+   flex: 0 1 30%;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+   background-color: #8bd0fb;
+
+}
+
+.response_body h6 {
+   text-align: center;
+   font-size: 36px;
+   margin: 0;
+   padding: 0;
+}
+
+.response_body p {
+   text-align: center;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+/* Styling "Statistics" container in Main page */
+.statistics {
+   margin: 100px 0;
+}
+
+.statistics_row {
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   text-align: center;
+   padding: 25px 30px;
+}
+
+
+.statistics_years {
+   padding: 0 30px;
+   border-right: 2px solid #8bd0fb;
+}
+
+.statistics_countries {
+   border-right: 2px solid #8bd0fb;
+}
+
+.statistics_universities {
+   border-right: 2px solid #8bd0fb;
+}
+
+.stats_img {
+   width: 50px;
+}
+
+.stats_body {
+   font-size: 16px;
+   text-align: center;
+}
+
+.stats_body::first-line {
+   font-size: 36px;
+   font-weight: 600;
+   color: #8bd0fb;
+}
+
+
+/* Styling one common FOOTER for all pages */
+.footer_row {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 0 0 0;
+}
+
+.footer_sign {
+   color: white;
+   /* background: url('../img/students_footer.jpg'); */
+   background: #605f5f;
+   padding: 50px;
+   border-radius: 20px;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+.footer_text {
+   margin: 30px 20px;
+   text-align: center;
+   font-size: 36px;
+   line-height: 24px;
+}
+
+.footer_button {
+   position: relative;
+   left: 40%;
+   background-color: white;
+   color: green;
+   border: none;
+}
+
+.footer_phone {
+   font-size: 24px;
+   line-height: 24px;
+   margin: 30px 20px;
+   text-align: center;
+}
+
+.footer_info {
+   margin: 50px;
+}
+
+.info_row {
+   display: flex;
+   justify-content: space-between;
+
+   min-width: 100%;
+}
+
+.info_email {
+   flex: 0 1 25%;
+}
+
+.info_adress {
+   flex: 0 1 25%;
+}
+
+.info_hours {
+   flex: 0 1 25%;
+}
+
+.info_item {
+   display: flex;
+   margin: 15px 20px;
+}
+
+.info_img {
+   width: 50px;
+   height: 50px;
+}
+
+.info_text {
+   padding: 5px 15px;
+}
+
+.footer_text span {
+   color: #8bd0fb;
+}
+
+
+/* Styling SIGN UP form that opens on button click */
+input[type=text],
+input[type=password],
+select,
+textarea {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+/* Styling submit button */
+.submit_button {
+   width: 100%;
+   background-color: #8bd0fb;
+   color: white;
+   font-size: 24px;
+   border: none;
+   padding: 10px;
+}
+
+/* Styling the cancel button */
+.cancelbtn {
+   width: auto;
+   padding: 10px 18px;
+   background-color: #f44336;
+   color: white;
+   border: none;
+}
+
+span.psw {
+   float: right;
+   padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.4);
+   padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto;
+   border: 1px solid #888;
+   width: 80%;
+}
+
+/* The Close Button */
+.close {
+   position: absolute;
+   right: 25px;
+   top: 0;
+   color: #000;
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+   color: red;
+   cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+
+   animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+   from {
+      -webkit-transform: scale(0)
+   }
+
+   to {
+      -webkit-transform: scale(1)
+   }
+}
+
+@keyframes animatezoom {
+   from {
+      transform: scale(0)
+   }
+
+   to {
+      transform: scale(1)
+   }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+   span.psw {
+      display: block;
+      float: none;
+   }
+
+   .cancelbtn {
+      width: 100%;
+   }
+}
+
+/* Styling main content of ABOUT page */
+/* Making FLEX container for content */
+.about_main_row {
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   background-color: rgb(200, 236, 248);
+}
+
+.about_main_row_title {
+   font-size: 36px;
+   font-weight: bold;
+   text-align: center;
+   margin: 50px 0 0 0;
+}
+
+.about_main_row_title span {
+   color: blue;
+}
+
+.about_main_row_text {
+   line-height: 24px;
+   font-size: 16px;
+}
+
+.about_main_row_image {
+   padding: 20px 15px;
+   border-bottom: 2px solid blue;
+}
+
+.about_main_row_image img {
+   min-width: 100%;
+   border-radius: 20px;
+}
+
+.facts_row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.facts_column {
+   flex: 0 1 40%;
+   background-color: white;
+   border-radius: 20px;
+   padding: 20px;
+   margin: 20px;
+   color: #8bd0fb;
+   font-size: 48px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.facts_column span {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.faq_body_row.open .faq_body_row_description {
+   max-height: 400px;
+   transition: max-height 1s;
+}
+
+.faq_body_row_description {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 1s;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   margin: 0 0 5px 0;
+}
+
+.faq_body_row_description p {
+   padding: 5px 15px;
+}
+
+.faq_body {
+   background-color: #8bd0fb;
+   padding: 20px;
+}
+
+.faq {
+   margin: 0 0 50px 0;
+}
+
+.faq_head_row {
+   padding: 50px;
+}
+
+.faq_body_title {
+   text-align: center;
+   font-size: 36px;
+   text-transform: capitalize;
+   margin: 20px 0;
+   font-weight: bold;
+   color: black;
+}
+
+.faq_body_title span {
+   color: white;
+}
+
+.faq_body_row {
+   background-color: #f1f1f1;
+   padding: 5px 15px;
+   border-radius: 10px;
+   margin: 5px 15px;
+}
+
+.services_main_row {
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   padding: 25px 35px;
+   background-color: #8bd0fb;
+   display: flex;
+   flex-direction: column;
+}
+
+.services_main_row_text {
+   font-size: 36px;
+   line-height: 48px;
+   font-weight: bold;
+   color: white;
+}
+
+.services_main_row_image img {
+   width: 50%;
+   display: block;
+   margin: 0 auto;
+}
+
+.alert {
+   font-size: 16px;
+   color: black;
+   text-align: center;
+}
+
+.alert::first-line {
+   color: red;
+   font-weight: bold;
+}
+
+.header_navbar_responsive {
+   display: none;
+}
+
+
+/* Making header and navbar responsive */
+@media(max-width: 780px) {
+   .fa-solid {
+      display: block !important;
+   }
+
+   .header_navbar {
+      display: none;
+   }
+
+   .header_row {
+      padding: 15px;
+      justify-content: space-between;
+   }
+
+   .header_navbar_responsive_list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   .header_navbar_responsive_list a {
+      text-decoration: none;
+      color: rgb(87, 87, 255);
+      padding: 40px 20px;
+      text-align: center;
+      display: block;
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+
+   .header_navbar_responsive {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -780px;
+      /* left: 0; */
+      bottom: 0;
+      margin-top: 114px;
+      background: white;
+   }
+}
+
+header.show .header_navbar_responsive {
+   right: 0;
+   left: 0;
+}
+
+/* Styling UNIVERSITIES page */
+.universities_main_title {
+   font-size: 24px;
+   margin: 0 0 15px 0;
+   text-align: center;
+}
+
+.universities_main_row {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+}
+
+.universities_main_row_column {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+.universities_column_img {
+   flex: 0 1 30%;
+}
+
+.universities_column_img img {
+   max-width: 100%;
+   border-radius: 10px;
+}
+
+.college {
+   flex: 0 1 70%;
+   margin: 10px 0 0 10px;
+   font-size: 20px;
+   line-height: 36px;
+}
+
+.college span {
+   font-size: 24px;
+   font-weight: bold;
+   display: block;
+   border-bottom: 2px solid #8bd0fb;
+}
